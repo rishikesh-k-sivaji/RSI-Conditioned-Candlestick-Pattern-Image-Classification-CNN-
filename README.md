@@ -1,3 +1,9 @@
+This project consists of two independent pipelines:
+(1) a rule-based image generation system that converts historical market data into labeled candlestick chart images using RSI, candlestick patterns, and future price movement, and
+(2) a CNN-based image classification model that learns to classify these images into technical trading pattern categories.
+
+The project focuses strictly on image classification and pattern recognition and does not perform price prediction or trading execution.
+
 Data Collection
 ===============
 
