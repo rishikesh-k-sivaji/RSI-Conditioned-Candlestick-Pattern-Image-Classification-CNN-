@@ -25,6 +25,11 @@ Pattern candle highlighted with bounding box
 
 Result: a custom multi-class image dataset
 
+## Sample Generated Chart
+<p align="center">
+  <img src="sample_images/RSI30_Hammer_UP/AAPL_1009.png" width="600">
+</p>
+
 
 Classes
 =======
