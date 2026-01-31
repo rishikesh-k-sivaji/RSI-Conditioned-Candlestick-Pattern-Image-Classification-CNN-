@@ -63,8 +63,6 @@ Convolutional Neural Network (TensorFlow / Keras)
 
 Regularization using Dropout and Early Stopping
 
-Regularization using Dropout and Early Stopping
-
 
 Results
 =========
