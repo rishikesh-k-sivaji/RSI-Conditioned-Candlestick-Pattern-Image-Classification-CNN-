@@ -15,7 +15,7 @@ Rule-Based Label Generation
 
 Candlestick patterns: Hammer, Shooting Star, Bullish & Bearish Engulfing
 
-RSI regimes: ≤30 (oversold) and ≥70 (overbought)
+RSI regimes: ≤30  and ≥70 
 
 Labels validated using future price movement
 
@@ -99,11 +99,11 @@ Classification Report:
 
 RSI30_BearishEngulfing_DOWN       1.00      1.00      1.00        80
 RSI30_BullishEngulfing_UP         0.98      1.00      0.99        83
-RSI30_Hammer_UP                  1.00      1.00      1.00        75
-RSI30_ShootingStar_DOWN          1.00      0.98      0.99        86
+RSI30_Hammer_UP                   1.00      1.00      1.00        75
+RSI30_ShootingStar_DOWN           1.00      0.98      0.99        86
 RSI70_BearishEngulfing_DOWN       0.99      1.00      0.99        85
 RSI70_BullishEngulfing_UP         1.00      0.99      0.99        99
-RSI70_Hammer_UP                  1.00      1.00      1.00        97
+RSI70_Hammer_UP                   1.00      1.00      1.00        97
 RSI70_ShootingStar_DOWN           0.99      0.99      0.99        99
 
 accuracy                           0.99       704
