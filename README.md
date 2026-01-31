@@ -75,6 +75,9 @@ Minimal confusion between visually similar patterns
 
 
 
+## Confusion Matrix & Classification Report
+
+```text
 Confusion Matrix:
 [[80  0  0  0  0  0  0  0]
  [ 0 83  0  0  0  0  0  0]
@@ -89,14 +92,15 @@ Classification Report:
                              precision    recall  f1-score   support
 
 RSI30_BearishEngulfing_DOWN       1.00      1.00      1.00        80
-  RSI30_BullishEngulfing_UP       0.98      1.00      0.99        83
-            RSI30_Hammer_UP       1.00      1.00      1.00        75
-    RSI30_ShootingStar_DOWN       1.00      0.98      0.99        86
+RSI30_BullishEngulfing_UP         0.98      1.00      0.99        83
+RSI30_Hammer_UP                  1.00      1.00      1.00        75
+RSI30_ShootingStar_DOWN          1.00      0.98      0.99        86
 RSI70_BearishEngulfing_DOWN       0.99      1.00      0.99        85
-  RSI70_BullishEngulfing_UP       1.00      0.99      0.99        99
-            RSI70_Hammer_UP       1.00      1.00      1.00        97
-    RSI70_ShootingStar_DOWN       0.99      0.99      0.99        99
+RSI70_BullishEngulfing_UP         1.00      0.99      0.99        99
+RSI70_Hammer_UP                  1.00      1.00      1.00        97
+RSI70_ShootingStar_DOWN           0.99      0.99      0.99        99
 
-                   accuracy                           0.99       704
-                  macro avg       0.99      0.99      0.99       704
-               weighted avg       0.99      0.99      0.99       704
+accuracy                           0.99       704
+macro avg                          0.99      0.99      0.99       704
+weighted avg                       0.99      0.99      0.99       704
+
